@@ -1,0 +1,19 @@
+{
+  "DATA": {
+    "TRAIN": "./dataset/devign/sample.jsonl",
+    "VALID": "./dataset/devign/sample.jsonl",
+    "TEST": "./dataset/devign/sample.jsonl"
+  },
+  "hidden_dimension_size": 256,
+  "embedding_size": 256,
+  "number_of_lstm_layer": 2,
+  "batch_size": 128,
+  "number_of_label_class": 2,
+  "learning_rate": 0.001,
+  "number_of_epoch": 10,
+  "tokenizer": "code-parser",
+  "random_seed": 5,
+  "model": "TreeLSTM",
+  "block_size": 1000,
+  "output_dir": "./saved_models"
+}

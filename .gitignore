@@ -1,0 +1,11 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+_references/
+_CodeBERT-master/
+_CodeXGLUE-main/
+saved_models/
+dataset/
+parser/tree-sitter-*/
+.idea/
